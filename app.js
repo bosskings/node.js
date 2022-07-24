@@ -47,12 +47,13 @@
 
 // const EventEmitter = require('events');
 
-const Logger = require('./logger');
-const logger = new Logger();
+// const Logger = require('./logger');
+// const logger = new Logger();
 
-//registers a listener
-logger.on('messageLogged', (arg) => {
-    console.log('Testing Events', arg);
-});
+// //registers a listener
+// logger.on('messageLogged', (arg) => {
+//     console.log('Testing Events', arg);
+// });
 
-logger.log('I dont Know yet ooo...........------');
+// logger.log('I dont Know yet ooo...........------');
+console.log('now and more')
